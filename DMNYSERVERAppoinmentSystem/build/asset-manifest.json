@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a49a0a2.chunk.css",
+    "main.js": "/static/js/main.67ab6322.chunk.js",
+    "main.js.map": "/static/js/main.67ab6322.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9068f4d7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9068f4d7.js.map",
+    "static/css/2.14b22e88.chunk.css": "/static/css/2.14b22e88.chunk.css",
+    "static/js/2.af9cce49.chunk.js": "/static/js/2.af9cce49.chunk.js",
+    "static/js/2.af9cce49.chunk.js.map": "/static/js/2.af9cce49.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.522379fe7a3bbc2ba4053e40c31b0ecb.js": "/precache-manifest.522379fe7a3bbc2ba4053e40c31b0ecb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.14b22e88.chunk.css.map": "/static/css/2.14b22e88.chunk.css.map",
+    "static/css/main.2a49a0a2.chunk.css.map": "/static/css/main.2a49a0a2.chunk.css.map",
+    "static/js/2.af9cce49.chunk.js.LICENSE.txt": "/static/js/2.af9cce49.chunk.js.LICENSE.txt",
+    "static/media/actacom.png": "/static/media/actacom.469cb7aa.png",
+    "static/media/cedula.png": "/static/media/cedula.0a5201e5.png",
+    "static/media/logo.png": "/static/media/logo.3f7e21a1.png",
+    "static/media/pasaporte.png": "/static/media/pasaporte.3ece2e6c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9068f4d7.js",
+    "static/css/2.14b22e88.chunk.css",
+    "static/js/2.af9cce49.chunk.js",
+    "static/css/main.2a49a0a2.chunk.css",
+    "static/js/main.67ab6322.chunk.js"
+  ]
+}
