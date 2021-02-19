@@ -1,0 +1,13 @@
+.Landing {
+  width: 65vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.Menu-Start{
+  outline: none;
+  text-decoration: none;
+  color: black;
+}

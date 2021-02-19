@@ -1,0 +1,204 @@
+
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 30vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+input:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #999;
+  font-size: 0.7vw;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #5264ae;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+.bar:before,
+.bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264ae;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+
+.Error{
+  width: 30vw;
+  height: 4vh;
+  margin-bottom: 20px;
+  background:rgb(218, 55, 55);
+  color:white;
+  font-size: 1.2vw;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 1px 9px 15px rgba(73, 78, 92, 0.5);
+}
+.Selection{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  width: 30vw;
+  height: 5vh;
+  background-color:  #1f305a;
+  font-size: 1.3vw;
+  color: whitesmoke;
+  box-shadow: 1px 9px 15px rgba(73, 78, 92, 0.5);
+}
+
+@media only screen and (max-width: 568px) {
+  input{
+    width: 80vw;
+    margin-left: 5px;
+  }
+
+  label{
+    font-size: 2.7vw;
+  }
+ 
+  .Error{
+    width: 90vw;
+    font-size: 5vw;
+  }
+  .Selection{
+    width: 80vw;
+    font-size: 4.5vw;
+  }
+  
+}
+
+@media only screen and (max-width: 768px){
+  input{
+    width: 80vw;
+    margin-left: 5px;
+  }
+
+  label{
+    font-size: 2.7vw;
+  }
+ 
+  .Error{
+    width: 90vw;
+    font-size: 5vw;
+  }
+  .Selection{
+    width: 80vw;
+    font-size: 4.5vw;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  input{
+    width: 80vw;
+    margin-left: 5px;
+  }
+
+  label{
+    font-size: 2.0vw;
+  }
+ 
+  .Error{
+    width: 90vw;
+    font-size: 3vw;
+  }
+  .Selection{
+    width: 80vw;
+    font-size: 5vw;
+  }
+
+}

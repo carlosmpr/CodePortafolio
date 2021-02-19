@@ -1,0 +1,101 @@
+.Task {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Task-item {
+  display: flex;
+  justify-content: center;
+  background-color: #1f305a;
+  color: white;
+  font-size: 2vw;
+  border-radius: 20px;
+  width: 2vw;
+}
+
+
+.Task-img{
+  width: 30vw;
+  height: auto;
+}
+
+.Button{
+  width: 10vw;
+  height: 5vh;
+  background-color: rgb(52, 102, 37);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.8vw;
+  outline: none;
+  box-shadow: 1px 9px 15px rgba(73, 78, 92, 0.5);
+  position: relative;
+  cursor: pointer;
+
+}
+
+.Button:active {
+  top: 1px;
+}
+
+
+@media only screen and (max-width: 568px) {
+  .Task-img{
+    width: 80vw;
+    height: auto;
+  }
+
+  .Button{
+    width: 40vw;
+    font-size: 2.5vw;
+    
+  }
+
+  .Task-item{
+    width: 30vw;
+    margin-right: 10px;
+    font-size: 3vw;
+  }
+  
+}
+
+
+@media only screen and (max-width: 768px){
+  .Task-img{
+    width: 80vw;
+    height: auto;
+  }
+
+  .Button{
+    width: 40vw;
+    font-size: 2.5vw;
+    
+  }
+
+  .Task-item{
+    width: 30vw;
+    margin-right: 10px;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .Task-img{
+    width: 80vw;
+    height: auto;
+  }
+
+  .Button{
+    width: 40vw;
+    font-size: 2.5vw;
+    
+  }
+
+  .Task-item{
+    width: 30vw;
+    margin-right: 10px;
+    font-size: 3vw;
+  }
+
+}

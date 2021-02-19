@@ -1,0 +1,77 @@
+.Lista {
+  display: flex;
+  width: 40vw;
+  height: 5vh;
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #fff;
+  margin: 10px;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 1vw;
+}
+
+.Lista-title {
+  display: flex;
+  margin-left: 3vw;
+}
+
+.Lista-span {
+  display: flex;
+  align-items: center;
+  background-color: #1f305a;
+  color: white;
+  font-size: 1.5vw;
+  width: auto;
+  height: 5vh;
+}
+
+.Lista:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+  background: #1f305a;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  color: #fff;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 568px) {
+  .Lista{
+    width: 90vw;
+    margin: 5px;
+    font-size: 3.5vw;
+  }
+
+  .Lista-span{
+    font-size: 4vw;
+  }
+  
+}
+
+
+@media only screen and (max-width: 768px){
+  .Lista{
+    width: 90vw;
+    margin: 5px;
+    font-size: 2.7vw;
+  }
+
+  .Lista-span{
+    font-size: 4vw;
+  }
+}
+
+
+@media only screen and (max-width: 1024px){
+  .Lista{
+    width: 90vw;
+    margin: 5px;
+    font-size: 3.5vw;
+  }
+
+  .Lista-span{
+    font-size: 4vw;
+  }
+}

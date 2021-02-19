@@ -1,0 +1,56 @@
+html {
+  background-color: #f7f7f7;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-logo {
+  width: 15vw;
+}
+
+
+.Title{
+  font-size: 1.4vw;
+  
+}
+
+
+@media only screen and (max-width: 568px) {
+  .main-logo{
+    width: 40vw;
+  }
+
+  .Title{
+    font-size: 5vw;
+    text-align: center;
+  }
+  
+}
+
+
+@media only screen and (max-width: 768px){
+  .main-logo{
+    width: 40vw;
+  }
+
+  .Title{
+    font-size: 5vw;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 1024px){
+  .main-logo{
+    width: vw;
+  }
+
+  .Title{
+    font-size: 5vw;
+    text-align: center;
+  }
+}

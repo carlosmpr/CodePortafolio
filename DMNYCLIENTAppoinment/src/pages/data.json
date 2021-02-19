@@ -1,0 +1,696 @@
+{
+  "Pasaporte": {
+    "Tipos": [
+      {
+        "Titulo": "Renovación de Pasaporte",
+        "Description":"Renovación de Pasaporte para mayores de 18 años con la libreta de pasaporte vencida",
+        "Requisitos": [
+          {
+            "title": "Cédula de identidad y electoral nuevo Formato Biométrico",
+            "image": "cedula.png"
+          },
+
+          {
+            "title": "Acta de Nacimiento Original e Inextensa del 2012 hasta la fecha (Legalizada Si proviene de la República Dominicana)",
+            "image": "actacom.png"
+          },
+          {
+            "title": "Libreta de Pasaporte Vencida",
+            "image": "pasaporte.png"
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Renovación de pasaporte por perdida de la libreta",
+        "Description":"Renovación de Pasaporte para mayores de 18 años por pérdida de la libreta de Pasaporte",
+        "Requisitos": [
+          {
+            "title":"Reporte policial (donde se detalla la pérdida del documento)."
+          },
+          {
+            "title": "Cédula de identidad y electoral nuevo Formato Biométrico",
+            "image": "cedula.png"
+          },
+
+          {
+            "title": "Acta de Nacimiento Original e Inextensa del 2012 hasta la fecha (Legalizada Si proviene de la República Dominicana).",
+            "image": "actacom.png"
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Renovación de pasaporte por deterioro de la libreta",
+        "Requisitos": [
+          {
+            "title": "Cédula de identidad y electoral nuevo Formato Biométrico",
+            "image": "cedula.png"
+          },
+
+          {
+            "title": "Acta de Nacimiento Original e Inextensa del 2012 hasta la fecha (Legalizada Si proviene de la República Dominicana).",
+            "image": "actacom.png"
+          },
+          {
+            "title": "Libreta de Pasaporte Deteriorada",
+            "image": "pasaporte.png"
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Renovación de pasaporte menores de edad por vencimiento",
+        "Requisitos": [
+          {
+            "title": "El menor de Edad debe estar presente, con uno de los Padres o Tutor Legal"
+          },
+
+          {
+            "title": "Cédula de identidad y electoral nuevo Formato Biométrico del Padre o tutor Legal que Acompaña al menor de edad.",
+            "image": "cedula.png"
+          },
+          {
+            "title": "Acta de Nacimiento del menor de edad, Original e Inextensa del 2012 hasta la fecha (Legalizada Si proviene de la Republica Dominicana)",
+            "image": "actacom.png"
+          },
+          {
+            "title": "Libreta de Pasaporte Vencida",
+            "image": "pasaporte.png"
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Renovación de Pasaporte por pérdida para menores de edad",
+        "Requisitos": [
+          {
+            "title": "El menor de Edad debe estar presente, con uno de los Padres o Tutor Legal"
+          },
+
+          {
+            "title": "Un reporte policial (donde se detalla la pérdida del documento)."
+          },
+
+          {
+            "title": "Cédula de identidad y electoral nuevo Formato Biométrico del Padre o tutor Legal que Acompaña al menor de edad.",
+            "image": "cedula.png"
+          },
+          {
+            "title": "Acta de Nacimiento del menor de edad, Original e Inextensa del 2012 hasta la fecha (Legalizada Si proviene de la Republica Dominicana)",
+            "image": "actacom.png"
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Renovación de pasaporte por deterioro para menores de edad",
+        "Requisitos": [
+          {
+            "title": "El menor de Edad debe estar presente, con uno de los Padres o Tutor Legal"
+          },
+
+          {
+            "title": "Libreta de Pasaporte Deteriorada"
+          },
+
+          {
+            "title": "Cédula de identidad y electoral nuevo Formato Biométrico del Padre o tutor Legal que Acompaña al menor de edad.",
+            "image": "cedula.png"
+          },
+          {
+            "title": "Acta de Nacimiento del menor de edad, Original e Inextensa del 2012 hasta la fecha (Legalizada Si proviene de la Republica Dominicana)",
+            "image": "actacom.png"
+          }
+        
+        ]
+      }
+    ]
+  },
+
+  "Legal":{
+    "Tipos": [
+      {
+        "Titulo": "Autorización para Viajar con Menores con otra persona",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral dominicana "
+           
+          },
+
+          {
+            "title": "Nombre y número de pasaporte o Cédula de Identidad y Electoral de la persona que viajará con el menor de edad en la República Dominicana."
+            
+          },
+          {
+            "title": "Acta de nacimiento del menor. d. Fotografía 2 x 2 del menor"
+          
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Autorización para Viajar con Menores con Azafata",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral dominicana "
+           
+          },
+
+          {
+            "title": "Nombre y número de pasaporte o Cédula de Identidad y Electoral de la persona que entregará al menor (menores) en la República Dominicana."
+            
+          },
+          {
+            "title": "Acta de nacimiento del menor. d. Fotografía 2 x 2 del menor"
+          
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Autorización Cobro de Pensión",
+        "Requisitos": [
+          {
+            "title": "Cédula de Identidad y Electoral del pensionado; si no tiene cédula debe presentar su pasaporte "
+           
+          },
+
+          {
+            "title": "Nombre completo y número de pasaporte o Cédula de Identidad y Electoral de la persona que lo representará en la República Dominicana."
+            
+          },
+          {
+            "title": "Nombre de la institución en la que fue pensionado"
+          
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Acto Notarial Reclamo de Herencia",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Copia del Acto de Defunción."
+          
+          },
+
+          {
+            "title": "Si desea especificar las propiedades a reclamar deben traer copias de los certificados de títulos de propiedad, certificado e inversión, cuentas bancarias, etc"
+          
+          }
+        ]
+      },
+
+
+      {
+        "Titulo": "Acto Notarial Venta/Traspaso/Retiro de Vehículo",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Copia Certificado de Propiedad o matrícula del vehículo"
+          
+          },
+
+          {
+            "title": "Información específica de la persona a quien se venderá o traspasará el vehículo (si conoce la información)."
+          
+          },
+
+          {
+            "title": "En caso de que sea para retiro de vehículo debe proveer el nombre del puerto donde se encuentre dicho vehículo"
+          
+          }
+        ]
+      },
+
+
+      {
+        "Titulo": "Acto Notarial Retiro de Título",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Acto de compra-venta, certificado de título o información específica del inmueble."
+          
+          },
+
+          {
+            "title": "Información respecto a cualquier asunto que sea de interés conocer por parte del interesado."
+          
+          }
+
+         
+        ]
+      },
+
+
+      {
+        "Titulo": "Acto Notarial para Hipotecas",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Copia título de propiedad del o los inmuebles implicados en la hipoteca."
+          
+          },
+
+          {
+            "title": "Nombre de la entidad bancaria, si la ha seleccionado"
+          
+          },
+
+
+          {
+            "title": "Información respecto a cualquier asunto que sea de interés conocer por parte del interesado."
+          },
+
+          {
+            "title": "Si el poderdante está casado debe comparecer con su cónyuge debidamente identificado con su pasaporte y/o cédula de identidad y electoral."
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Acto Notarial de Compra en Efectivo",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Información del BIEN a ser comprado (certificado de título de propiedad, descripción exacta incluyendo la ubicación), o por lo menos descripción general del tipo de BIEN que se comprará"
+          
+          },
+
+          {
+            "title": "Información respecto a cualquier asunto que sea de interés conocer por parte del interesado. Traer una persona como testigo, que no sea familia, debidamente identificada con su cédula de identidad y electoral y/o pasaporte."
+          
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Acto Notarial para Trámites Bancarios",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Copia de la libreta de banco, número de cuenta, y/o copia de los certificados de depósito y/o financiero."
+          
+          },
+
+          {
+            "title": "Información respecto a cualquier asunto que sea de interés conocer por parte del interesado. Traer una persona como testigo, que no sea familia, debidamente identificada con su cédula de identidad y electoral y/o pasaporte."
+          
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Acto Notarial de Representación Legal",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Información tan específica como sea posible del objeto de la representación, es decir todas aquellas acciones que el PODERDANTE requiere que el APODERADO realice en nombre del PODERDANTE"
+          
+          },
+
+          {
+            "title": "Información que demuestre que el PODERDANTE tiene capacidad legal para pedir al APODERADO que realice algo en su nombre con relación a algún bien, ya sea mueble o inmueble (título de propiedad, cuenta bancaria, certificado financiero, etc.)"
+          
+          },
+          {
+            "title": "Información respecto a cualquier asunto que sea de interés conocer por parte del interesado"
+          
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Acto Notarial de Venta en Efectivo",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Información del BIEN a ser vendido (certificado de título de propiedad, y/o contrato de venta)."
+          
+          },
+
+          {
+            "title": "Información que demuestre que el PODERDANTE tiene capacidad legal para pedir al APODERADO que realice algo en su nombre con relación a algún bien, ya sea mueble o inmueble (título de propiedad, cuenta bancaria, certificado financiero, etc.)"
+          
+          },
+          {
+            "title": "Información respecto a cualquier asunto que sea de interés conocer por parte del interesado"
+          
+          },
+
+          {
+            "title": "Si el poderdante está casado debe comparecer con su cónyuge debidamente identificado con su pasaporte y/o cédula de identidad y electoral."
+          
+          },
+          {
+            "title": "Si el documento de identidad no es el mismo al que aparece en el certificado de título, debe traer además otro documento oficial que pruebe que se trata de la misma persona."
+          
+          },
+          {
+            "title": "Traer una persona como testigo, que no sea familia, debidamente identificada con su cédula de identidad y electoral y/o pasaporte."
+          
+          }
+
+
+        ]
+      },
+
+      {
+        "Titulo": "Acto Notarial Administración de Inmuebles",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Copia título de propiedad del o los inmuebles."
+          
+          },
+
+          {
+            "title": "Información respecto a cualquier asunto que sea de interés conocer por parte del interesado"
+          
+          }
+
+
+        ]
+      },
+
+      {
+        "Titulo": "Acto Notarial para Adopción",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo y número de Cédula de Identidad y Electoral del APODERADO."
+            
+          },
+          {
+            "title": "Copia título de propiedad del o los inmuebles."
+          
+          },
+
+          {
+            "title": "Información respecto a cualquier asunto que sea de interés conocer por parte del interesado"
+          
+          }
+
+
+        ]
+      },
+
+      {
+        "Titulo": "Acto de Estipulaciones y Convenciones para el Divorcio por Mutuo Consentimiento",
+        "Requisitos": [
+          {
+            "title": "Cédulas de Identidad y Electoral y/o pasaportes de los esposos divorciantes"
+           
+          },
+
+          {
+            "title": "Acta de Matrimonio"
+            
+          },
+          {
+            "title": "Actas de Nacimiento de los hijos, si existen."
+          
+          },
+
+          {
+            "title": "Nombre de la entidad financiera que otorgará el financiamiento"
+          
+          },
+          {
+            "title":"Nombre, número de Cédula de Identidad y Electoral, estado civil y dirección del abogado que los representará en la República Dominicana"
+          }
+
+
+
+        ]
+      },
+
+      {
+        "Titulo": "Acto Notarial para Desaduanar Bienes",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre y apellido completo, documento de identidad y dirección del APODERADO o persona que lo representará en la República Dominicana."
+            
+          },
+          {
+            "title": "Actas de Nacimiento de los hijos, si existen."
+          
+          },
+
+          {
+            "title": "Copia factura de los bienes a ser desaduanados (si la tiene)"
+          
+          },
+          {
+            "title":"Información respecto a cualquier asunto que sea de interés conocer por parte del interesado"
+          }
+
+
+
+        ]
+      },
+
+
+
+      {
+        "Titulo": "Acto Notarial Divorcio por Mutuo Acuerdo (Sin Estipulaciones)",
+        "Requisitos": [
+          {
+            "title": "Pasaporte o Cédula de Identidad y Electoral del (los) PODERDANTES."
+           
+          },
+
+          {
+            "title": "Nombre completo, cédula de identidad y electoral y dirección del APODERADO o persona que lo representará en la República Dominicana"
+            
+          },
+          {
+            "title": "Copia del Acta de Matrimonio (si la tiene)."
+          
+          },
+          {
+            "title":"Información respecto a cualquier asunto que sea de interés conocer por parte del interesado"
+          }
+
+
+
+        ]
+      },
+
+      {
+        "Titulo": "Autorización Gestión de Documentos para Menores (Pasaporte, Visado y Acta)",
+        "Requisitos": [
+          {
+            "title": "Llevar documento de identidad dominicano (Pasaporte o Cédula de Identidad y Electoral) del autorizante"
+           
+          },
+
+          {
+            "title": "Acta de Nacimiento del menor."
+            
+          },
+          {
+            "title": "Documento de identidad y dirección de la persona que recibirá la Autorización"
+          
+          }
+
+        ]
+      },
+
+      {
+        "Titulo": "Acto Notarial Divorcio por Incompatibilidad de Caracteres",
+        "Requisitos": [
+          {
+            "title": "Acto Notarial Divorcio por Incompatibilidad de Caracteres."
+           
+          },
+
+          {
+            "title": "Nombre y apellido completo, documento de identidad y dirección del APODERADO o abogado que lo representará en la República Dominicana."
+            
+          },
+          {
+            "title": "Copia del Acta de Matrimonio (si la tiene)."
+          
+          },
+          {
+            "title": "Información respecto a cualquier asunto que sea de interés conocer por parte del interesado"
+          
+          }
+
+        ]
+      }
+
+
+
+    ]
+
+  },
+  "Apostillas":{
+    "Tipos": [
+      {
+        "Titulo": "Apostillar Acta de Matrimonio de Los Estados Unidos",
+        "Requisitos": [
+          {
+            "title": "Acta de Matrimonio para fines de apostilla(Forma Larga) y Certificada en la ciudad que contrajo el matrimonio."
+           
+          }
+        ]
+      },
+
+      {
+        "Titulo": "DOCUMENTOS PARA EL TRASLADO DE ANIMALES",
+        "Requisitos": [
+          {
+            "title": "Certificado de Salud notariado, expedido por un veterinario."
+           
+          },
+          {
+            "title": "Certificación del County Clerk legalizando la firma del Notario Público."
+           
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Apostillar Acta de Nacimiento de Los Estados Unidos en los cinco boroughs de Nueva York (Manhattan, Brooklyn, Queens, Bronx y Staten Island)",
+        "Requisitos": [
+          {
+            "title": "Acta de Nacimiento para fines de apostilla(Forma Larga)."
+           
+          },
+          {
+            "title": "Una carta de ejemplificación o Exemplification letter del departamento de Salud."
+           
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Apostillar Acta de Nacimiento de Los Estados Unidos y no pertenece a los cinco boroughs de Nueva York (Manhattan, Brooklyn, Queens, Bronx y Staten Island)",
+        "Requisitos": [
+          {
+            "title": "Acta de Nacimiento para fines de apostilla(Forma Larga)."
+           
+          }
+        ]
+      },
+
+      {
+        "Titulo": "Apostillar Acta de Defuncion de Los Estados Unidos",
+        "Requisitos": [
+          {
+            "title": "Acta de Defunción certificada por el Departamento de Salud"
+           
+          },
+
+          {
+            "title": "Una carta de ejemplificación o Exemplification letter del departamento de Salud"
+           
+          },
+
+          {
+            "title": "Declaración Jurada de Embalsamiento. Este documento deberá estar notarizado (firmado por el embalsamador ante un notario público y certificada la firma del notario público en el County Clerk)."
+           
+          }
+
+        ]
+      }
+
+      
+    ]
+
+  },
+
+
+  "Traducciones":{},
+  "Visas":{},
+  "Doble Ciudadania":{},
+  "Proteccion":{},
+  "Asuntos Comunitarios":{}
+
+  
+}

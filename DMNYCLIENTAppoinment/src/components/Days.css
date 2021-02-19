@@ -1,0 +1,185 @@
+
+.List-cita{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40vw;
+    background-color:#1f305a;
+    height: 2vw;
+    font-size: 1.1vw;
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+
+.force{
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+    height: 3vh;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 9px 15px rgba(73, 78, 92, 0.5);
+  
+
+}
+
+.force2{
+    width: 10vw;
+    height: 3vh;
+    border:none;
+    box-shadow: 1px 9px 15px rgba(73, 78, 92, 0.5);
+    background-color: rgb(218, 55, 55);
+    color: white;
+    font-size: 0.95vw;
+  }
+
+  .force3{
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+    height: 3vh;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 9px 15px rgba(73, 78, 92, 0.5);
+    cursor: pointer;
+    position: relative;
+  }
+
+
+ 
+
+  .force2:active{
+    top: 1px;
+    outline: none;
+    background-color: rgb(52, 102, 37);
+
+  }
+  .force2:focus{
+    background-color: rgb(52, 102, 37);
+  }
+
+
+  .Bye{
+    font-size: 1.5vw;
+    text-align: justify;
+  }
+
+
+  @media only screen and (max-width: 568px) {
+    .Bye{
+      font-size: 2.5vw;
+      text-align: justify;
+    }
+ .List-cita{
+   width: 80vw;
+   height: 5vh;
+ }
+
+ .force{
+   width: 20vw;
+   font-size: 2.2vw;
+   display: flex;
+   justify-items: center;
+   align-items: center;
+ }
+
+ .force2{
+   width: 20vw;
+   font-size: 3vw;
+ }
+
+ .force3{
+   font-size: 2vw;
+   width: 20vw;
+   display: flex;
+   align-items: center;
+ }
+
+ .force4{
+  font-size: 3vw ;
+}
+    
+  }
+
+
+  @media only screen and (max-width: 768px){
+
+    .Bye{
+      font-size: 4.5vw;
+      text-align: justify;
+    }
+    .List-cita{
+      width: 80vw;
+      height: 5vh;
+    }
+   
+    .force{
+      width: 20vw;
+      font-size: 2.2vw;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+    }
+   
+    .force2{
+      width: 20vw;
+      font-size: 3vw;
+    }
+   
+    .force3{
+      font-size: 2vw;
+      width: 20vw;
+      display: flex;
+      align-items: center;
+    }
+   
+    .force4{
+     font-size: 3vw ;
+   }
+
+  }
+
+  @media only screen and (max-width: 1024px){
+
+    .List-cita{
+      width: 100vw;
+      height: 5vh;
+    }
+
+    .Bye{
+      margin: 10px;
+      font-size: 5vw;
+      text-align: justify;
+    }
+   
+    .force{
+      width: 30vw;
+      font-size: 2.8vw;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+    }
+   
+    .force2{
+      width: 25vw;
+      font-size: 3.5vw;
+    }
+   
+    .force3{
+      font-size: 2.7vw;
+      width: 25vw;
+      display: flex;
+      align-items: center;
+    }
+   
+    .force4{
+     font-size: 5vw ;
+   }
+
+
+  }
+
+  

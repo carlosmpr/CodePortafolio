@@ -1,0 +1,66 @@
+.property-card {
+  width: 10vw;
+  display: flex;
+  padding: 5px;
+  margin: 40px;
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #fff;
+  transition: 0.4s;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  transition: 0.4s;
+  justify-content: center;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+/* Bottom Card Section */
+.property-card:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+  background: #1f305a;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  color: #fff;
+  cursor: pointer;
+}
+.property-description {
+  background-color: #fafafc;
+  height: 12em;
+  width: 14em;
+  position: absolute;
+  bottom: 0em;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 568px) {
+  .property-card{
+    width: 80vw;
+    margin: 5px;
+  }
+  
+}
+
+@media only screen and (max-width: 768px){
+  .property-card{
+    width: 80vw;
+    margin: 5px;
+    font-size: 3vw;
+  }
+}
+
+
+@media only screen and (max-width: 1024px){
+  .property-card{
+    width: 80vw;
+    margin: 5px;
+    font-size: 4vw;
+  }
+
+}
