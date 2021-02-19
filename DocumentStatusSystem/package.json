@@ -1,0 +1,27 @@
+{
+  "name": "apiserver",
+  "version": "1.0.0",
+  "description": "api consulting information",
+  "main": "index.js",
+  "engines": {
+    "node": "v10.15.3",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "caribcs and experience",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csv-parser": "^2.3.0",
+    "csv-writer": "^1.5.0",
+    "d3": "^5.11.0",
+    "express": "^4.17.1",
+    "express-force-https": "^1.0.0",
+    "fast-csv": "^3.4.0",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.10",
+    "nodemon": "^1.19.1"
+  }
+}
