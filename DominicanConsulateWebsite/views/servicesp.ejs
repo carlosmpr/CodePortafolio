@@ -1,0 +1,92 @@
+<% include ../partials/header %>
+	
+
+	<!-- Page Content------------------------------------------------ -->
+	<aside class="page-content-wrapper">
+	       
+
+
+	  <div class="container  panel-default shadow">
+  <div class="panel-body">
+      <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 text-center">
+         <h1>Citas para Pasaporte</h1>
+      <img src="LOGO CONSULADO Estados Unidos-01.png" width="50%" height="auto" alt="" />
+     
+    </div>
+    
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12">
+        <br>
+        <br>
+        <br>
+    
+       
+            <h1> Programación de citas en línea para Pasaporte</h1>
+      
+       
+        <br>
+     
+        <p class="text-justify">El pasaporte es el documento oficial expedido por la República Dominicana a sus ciudadanos con el fin principal de viajar al exterior y transportarse de un país a otro. La libreta de pasaporte de la República Dominicana es biométrica y se expide por seis (6) años.</p>
+       
+         <p class="text-justify">Para la solicitud o renovación del pasaporte dominicano, debe cumplir con cada uno de los requisitos y documentación, según el caso correspondiente:</p>
+        </div>
+        
+        
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xm-12">
+          <div class="list-group-item">
+   
+    
+    <div class="list-group">
+      
+    
+        
+  
+  
+      <div class=" panel-danger">
+ <h2><strong>Nota:</strong></h2></div>
+  <div class="panel-content text-justify"><p >Siempre debe verificar la información de su acta de nacimiento y Cédula de Identidad y Electoral Dominicana.<strong>Hacemos constar que el nombre que aparecerá en su pasaporte al imprimierlo será igual al nombre que está en la cédula,  no en el  pasaporte anterior </strong> la misma regla  aplica a los menores de edad segun el acta de nacimiento.</p></div>
+  
+    </div>
+  <h2>Requisitos según el caso:</h2>
+ 
+  <div id="accordion">
+      
+      
+   
+
+    
+     <% Pasaporte.forEach(function(Pasaporte){%>
+     
+    <div class="panel">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#<%=Pasaporte._id%>">
+         <%= Pasaporte.name%>
+        </a>
+      </div>
+      <div id="<%=Pasaporte._id%>" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+         <p class="text-justify"><%= Pasaporte.Descripcion%></p>
+    
+           <a href="/pasaporte/<%= Pasaporte._id%>"><button type="button" class="btn btn-info">Programar cita en línea</button> </a>
+      
+        </div>
+      </div>
+    </div>
+     <% }); %>
+    
+    
+  
+      </div>
+  
+        
+        
+        </div>
+     
+    </div>
+  </div>
+  
+  </div>
+  
+
+          
+     <% include ../partials/footer %>

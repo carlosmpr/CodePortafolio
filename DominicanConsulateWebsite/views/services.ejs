@@ -1,0 +1,96 @@
+<% include ../partials/header %>
+
+
+<!-- Page Content------------------------------------------------ -->
+<div class="jumbotron text-center wow fadeInUp">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 text-center">
+        <h1 style="color: white">Departamento de Pasaporte</h1>
+        <img src="LOGO CONSULADO Estados Unidos-01.png" width="50%" height="auto" alt="" />
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12">
+        <br>
+        <br>
+        <br>
+
+
+        <h1 style="color: white">Pasaporte</h1>
+
+
+        <br>
+
+        <p class="text-justify " style="color: white">El pasaporte es el documento oficial expedido por la República
+          Dominicana a sus ciudadanos con el fin principal de viajar al exterior y transportarse de un país a otro. La
+          libreta de pasaporte de la República Dominicana es biométrica y se expide por seis (6) años.</p>
+
+        <p class="text-justify" style="color: white">Para la solicitud o renovación del pasaporte dominicano, debe
+          cumplir con cada uno de los requisitos y documentación, según el caso correspondiente:</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center">
+    <a href="https://www.crdny.com/"><button type="button" class="btn   btn-info">Consultar estatus del
+        pasaporte</button></a>
+  </div>
+</div>
+
+
+<section id="services">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-12">
+        <div class="box wow fadeInUp" data-wow-delay="0.2s">
+
+          <h4 class="title"><a href=""><strong>Nota:</strong></a></h4>
+          <p class="text-justify">
+            Siempre debe verificar la información de su acta de nacimiento y Cédula de Identidad y Electoral
+            Dominicana.<strong>Hacemos constar que el nombre que aparecerá en su pasaporte al imprimierlo será igual al
+              nombre que está en la cédula, no en el pasaporte anterior </strong> la misma regla aplica a los menores de
+            edad segun el acta de nacimiento.</p>
+        </div>
+      </div>
+
+      <div class="section-header wow fadeInUp">
+        <h4>Requisitos de la renovación de pasaporte según el caso:</h4>
+
+      </div>
+
+
+      <% Pasaporte.forEach(function(Pasaporte){%>
+      <div class="col-lg-6">
+        <div class="box wow fadeInUp" data-wow-delay="0.2s">
+
+          <h5 class="title"><a href="/Pasaporte/<%= Pasaporte._id%>"><%= Pasaporte.name%></h5>
+          <div class="icon"><i class="fa fa-book"></i></div>
+
+          <br>
+
+          <div class="text-center">
+            <!-- <a href="https://goo.gl/forms/VIfRMpvH4jX2UL012"><button type="button" class="btn   btn-warning">Hacer mi
+                cita
+                en
+                línea</button></a> -->
+            <a href="/pasaporte/<%= Pasaporte._id%>"><button type="button"
+                class="btn   btn-info">Documentos</button></a>
+          </div>
+        </div>
+      </div>
+      <% }); %>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<% include ../partials/footer %>

@@ -1,0 +1,89 @@
+<% include ../partials/header %>
+	
+
+	<!-- Page Content------------------------------------------------ -->
+	<aside class="page-content-wrapper">
+	       
+
+
+	  <div class=" container panel-default shadow">
+  <div class="panel-body">
+      <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xm-12 text-center">
+         <h1>Programación de citas en línea para el Departamento Legal</h1>
+      <img src="LOGO CONSULADO Estados Unidos-01.png" width="50%" height="auto" alt="" />
+     
+    </div>
+    
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xm-12">
+        <br>
+        <br>
+        <br>
+    
+       
+            <h1>Actos Notariales</h1>
+      
+       
+        <br>
+     
+        <p class="text-justify">
+Como representantes de la República Dominicana en Nueva York, Estados Unidos de América, actuamos como NOTARIO PÚBLICO y OFICIAL DEL ESTADO CIVIL. En ese sentido, el consulado está  a disposición de la comunidad para la redacción de todo tipo de actos notariales, tales como poderes, contratos, testamentos, autorizaciones y declaraciones juradas; así como la autenticación de documentos, declaraciones de nacimientos de los hijos de dominicanos nacidos bajo nuestra jurisdicción y solemnización de matrimonios entre ciudadanos dominicanos.</p>
+        
+         <p class="text-justify">
+En esta sección se mencionan los Actos Notariales(Poderes) más frecuentes.Para detalles sobre los requisitos y documentaciones necesarias, seleccione el caso según corresponda .Cualquier otro tipo de poder no aquí listado, será redactado atendiendo a la naturaleza del mismo.</p>
+        
+        </div>
+        
+        
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xm-12">
+          <div class="list-group-item">
+   
+    
+    <div class="list-group">
+      
+    
+        
+  
+  <h2>Nota:</h2>
+  <p>Para mejorar la calidad de los servicios y agilizar los porcesos, es importante <strong>traer todos sus documentos debidamente de forma fisica (IMPRESO)</strong></p>
+  
+  <p>Todos los poderes deben<strong> ser Legalizados en la Cancilleria de la Republica Dominicana</strong>, las autorizaciones para viaje de menor <strong> Deben ser Legalizadas en Cancilleria y Certificadas en Migracion Republica Dominicana</strong></p>
+  <div id="accordion">
+      
+      
+   
+
+    
+     <% legal.forEach(function(legal){%>
+    <div class="panel">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#<%=legal._id%>">
+         <%= legal.name%>
+        </a>
+      </div>
+      <div id="<%=legal._id%>" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+         <p class="text-justify"><%= legal.Descripcion%></p>
+        
+           <a href="/citalegal/<%= legal._id%>"><button type="button" class="btn btn-info">Programar cita en línea</button> </a>
+      
+        </div>
+      </div>
+    </div>
+     <% }); %>
+    
+    
+  
+      </div>
+  
+        
+        
+        </div>
+     
+    </div>
+  </div>
+  
+  </div>
+
+          
+     <% include ../partials/footer %>

@@ -1,0 +1,127 @@
+<% include ../partials/header %>
+	
+
+
+
+
+ <div class="jumbotron text-center wow fadeInUp">
+	     <div class="container">
+   <div class="row">
+       <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 text-center">
+          <h1 style="color: white">Departamento de Visas</h1>
+      <img src="LOGO CONSULADO Estados Unidos-01.png" width="50%" height="auto" alt="" />
+     
+    </div>
+    
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12">
+        <br>
+        <br>
+        <br>
+    
+       
+            <h1 style="color: white">Visas</h1>
+      
+       
+        <br>
+     
+        <p class="text-justify" style="color: white">La República Dominicana es un país abierto al mundo.  Nuestras bellezas naturales, historia, herencia cultural, las opciones de inversión y negocios, así como la calidez de nuestros ciudadanos, invitan a las personas de todos los países a visitarnos y disfrutar de una isla encantadora y llena de oportunidades.
+</p>
+
+
+       
+        </div>
+    
+     </div>
+     </div>
+      </div>
+      
+      
+      
+
+
+        
+        
+        
+        
+        <section id="services">
+     
+      <div class="container">
+        
+        <div class="row">
+            
+             <div class="col-lg-12">
+              <div class="box wow fadeInUp" data-wow-delay="0.2s">
+              
+              <h4 class="title"><a href=""><strong>Nota:</strong></a></h4>
+            <p class="text-justify">Los extranjeros legalmente capaces de entrar a la Unión Europea, Gran Bretaña, Estados Unidos de América o Canadá pueden entrar a República Dominicana con tan solo presentar una tarjeta de turista.
+
+La tarjeta de turista tiene una vigencia de un año a partir de la fecha de compra, y es válida para una visita de hasta 30 días y podrá utilizarla solo una vez. Puede ser adquirida en puntos de ventas en los puertos de entrada terrestres, aéreos o marítimos del país; también en las embajadas dominicanas, en las oficinas consulares en el extranjero y a través de las empresas operadoras de turismo. Así mismo se puede comprar en línea en www.dgii.gov.do/tarjetaTuristica
+
+Los turistas que se queden más allá del período de 30 días deben pagar una tarifa dependiendo de la extensión, lo que puede hacerse en la Dirección General de Migración o en el puesto de migración a la salida del país.
+www.migracion.gob.do/web/tarifas.php</p>
+
+              </div>
+            </div>
+            
+            
+             <div class="col-lg-12">
+              <div class="box wow fadeInUp" data-wow-delay="0.2s">
+               <div class="icon"><i class="fa fa-book"></i></div>
+              <h4 class="title"><a href="https://drive.google.com/file/d/1jR3ljoGPN0n_EwMINYvl4IxKBhXwuoHx/view?usp=sharing">¿Quiénes no requieren visa ni tarjeta de turista para entrar a la República Dominicana?</a></h4>
+           
+
+              </div>
+            </div>
+            
+            
+            <div class="col-lg-12">
+              <div class="box wow fadeInUp" data-wow-delay="0.2s">
+               <div class="icon"><i class="fa fa-book"></i></div>
+              <h4 class="title"><a href="https://drive.google.com/file/d/1rBI_tvRZRTG05aR_O2CqWCHkByb2WmAp/view?usp=sharing">¿Quiénes pueden entrar a la República Dominicana solo con la tarjeta de turista?</a></h4>
+           
+
+              </div>
+            </div>
+            
+             <div class="col-lg-12">
+              <div class="box wow fadeInUp" data-wow-delay="0.2s">
+               <div class="icon"><i class="fa fa-book"></i></div>
+              <h4 class="title"><a href="https://drive.google.com/file/d/11UCQnMaU0mWPHo5IAVQ6Tir5PjlUlU8I/view?usp=sharing">¿Quiénes requieren VISA para entrar a la República Dominicana?:</a></h4>
+           
+
+              </div>
+            </div>
+            
+            
+            
+            <div class="section-header wow fadeInUp">
+          <h4>Tipos de Visas</h4>
+          
+        </div>
+        
+        
+        <% legal.forEach(function(legal){%>
+         <div class="col-lg-12">
+              <div class="box wow fadeInUp" data-wow-delay="0.2s">
+              
+              <h5 class="title"><a href="/legal/<%= legal._id%>"><%= legal.name%></h5>
+              <div class="icon"><i class="fa fa-book"></i></div>
+              <p class="text-justify"><%= legal.Descripcion%></p>
+              <br>
+              <div class="text-center">
+              
+              <a href="<%= legal.Link%>"><button type="button" class="btn   btn-info">Documentos</button></a>
+              </div>
+              </div>
+            </div>
+            <% }); %>
+            
+            
+            </div>
+            </div>
+            </section>
+        
+        
+       
+          
+     <% include ../partials/footer %>
