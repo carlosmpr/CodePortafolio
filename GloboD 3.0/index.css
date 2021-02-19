@@ -1,0 +1,60 @@
+body{
+    background-color: #F7F7F7;
+    font-family: 'Oswald', sans-serif;
+} 
+
+.nav-bar{
+    background-color: white;
+    
+}
+
+p{
+text-align: justify;
+
+}
+
+.brand-logo{
+    color: black !important;    
+    font-weight:700 ;
+}
+
+.adjust-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+}
+
+
+.avatar{
+    width: 100px;
+    height: auto;
+}
+
+.Logo-image{
+    width: 50px;
+}
+
+.card-avatar{
+    display: flex;
+}
+
+.trapezoid {
+    overflow: hidden;
+    border-top-right-radius: 800px !important;
+    border-top-left-radius: 800px !important;
+   
+  }
+
+
+  .avatar-circle{
+     
+   
+      width: 4.5vw;
+      overflow: hidden;
+      object-fit: center;
+  }
